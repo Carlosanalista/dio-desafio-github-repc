@@ -1,1 +1,39 @@
 Link para download do git: https://git-scm.com/downloads
+
+Alguns Comandos do Git:
+
+1 - Git Clone "Git clone é uma comando para baixar o código-fonte existente de um repositório remoto (como, por exemplo, o Github). "
+comando: git clone <https://link-com-o-nome-do-repositório>
+
+2 - Git status "O comando git status nos dá todas as informações necessárias sobre a branch atual."
+comando: git status
+
+3 - Git add "Precisamos usar o comando git add para incluir as alterações de um ou vários arquivos"
+comando: git add <arquivo> ou git add .
+
+4 - Git commit "Git commit é como definir um ponto de verificação no processo de desenvolvimento. Você pode voltar a esse ponto mais tarde, se necessário."
+comando: git commit -m "mensagem do commit"
+
+5 - Git push "Após fazer o commit de suas alterações, a próxima coisa a fazer é enviar suas alterações ao servidor remoto. "
+comando: git push <repositório-remoto> 
+
+6 - Git pull "O comando git pull é usado para obter as atualizações de um repositório remoto."
+comando: git pull <repositório-remoto>
+
+7 - Git Branch "Branches (algo como ramificações, em português) são altamente importantes no mundo do git. "
+comando: git branch <nome-da-branch>
+
+8 - Git checkout "Usamos git checkout, na maioria dos casos, para trocar de uma branch para outra."
+comando: git checkout <nome-da-branch>
+
+9 - Git merge "Git merge, basicamente, integra sua branch com o recurso e todos os seus commits na branch de desenvolvimento (dev) ou na branch principal (master ou main)."
+
+#IMPORTANTE "É importante lembrar que, primeiro, você precisa estar na branch específica na qual você quer fazer o merge de sua branch com o recurso."
+Exemplo: 
+Primeiro, troque para a branch dev: 
+comando: git checkout dev
+Antes do merge, atualize sua branch dev local:
+comando: git fetch
+Por fim, faça o merge:
+comando: git merge <nome-da-branch-com-o-recurso>
+
